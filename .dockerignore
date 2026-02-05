@@ -1,0 +1,47 @@
+# Node modules
+**/node_modules
+**/npm-debug.log
+
+# Python
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+**/.venv
+**/venv/
+**/*.egg-info/
+
+# Build files
+# **/build
+# **/dist
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Logs
+**/*.log
+logs/
+
+# Downloads (don't include in image)
+downloads/
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
