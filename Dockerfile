@@ -9,7 +9,7 @@ WORKDIR /app
 COPY frontend/metube/package*.json ./
 
 # Install dependencies
-RUN npm ci
+RUN npm install
 
 # Copy frontend source code
 COPY frontend/metube/ ./
